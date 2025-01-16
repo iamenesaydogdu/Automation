@@ -23,7 +23,7 @@ public class BrowserTest {
 		String text =driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
 		Assert.assertTrue(text.equalsIgnoreCase("RahulShettyAcademy.com Learning"));
-		//driver.close();
+		driver.close();
 	
 		
 		
