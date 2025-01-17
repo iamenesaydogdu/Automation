@@ -18,6 +18,7 @@ public class BrowserTest {
 	{
 		System.out.println("Hello Guys");
 		//System.setProperty("webdriver.chrome.driver", "/Users/enesaydogdu/eclipse-workspace/Automation/chromedriver"); Enes Aydogdu
+		//Azure devops yansicak mi ? 
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
 		WebDriver driver =new ChromeDriver();
 		driver.get("https://enesaydogdu2-cdgzc2gchphec2hm.canadacentral-01.azurewebsites.net/webapp/");
