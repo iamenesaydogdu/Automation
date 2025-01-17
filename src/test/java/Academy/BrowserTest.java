@@ -17,7 +17,7 @@ public class BrowserTest {
 	public void getData()
 	{
 		System.out.println("Hello Guys");
-		//System.setProperty("webdriver.chrome.driver", "/Users/enesaydogdu/eclipse-workspace/Automation/chromedriver"); Enes Aydogdu
+		//System.setProperty("webdriver.chrome.driver", "/Users/enesaydogdu/eclipse-workspace/Automation/chromedriver"); Enes Aydogdu..
 		//Azure devops yansicak mi ? .. 
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
 		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
