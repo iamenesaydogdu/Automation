@@ -17,7 +17,8 @@ public class BrowserTest {
 	public void getData()
 	{
 		System.out.println("Hello Guys");
-		System.setProperty("webdriver.chrome.driver", "/Users/enesaydogdu/eclipse-workspace/Automation/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/enesaydogdu/eclipse-workspace/Automation/chromedriver");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
 		WebDriver driver =new ChromeDriver();
 		driver.get("https://enesaydogdu2-cdgzc2gchphec2hm.canadacentral-01.azurewebsites.net/webapp/");
 		String text =driver.findElement(By.cssSelector("h1")).getText();
